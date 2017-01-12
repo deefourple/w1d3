@@ -72,34 +72,3 @@ applyTax();
   }
 
 console.log(report(companySalesData));
-
-// ? = {}
-      // if (companySalesData[i].name) //occurs more than once merge data ) {
-        // results[name].totalSales = companySalesData[i].totalSales //+= matchedName totalSales;
-        // results[name].totalTaxes = companySalesData[i].salesTax //+= matchedName salesTax;
-      // }
-// console.log(results[name]);
-
-// console.log(companySalesData);
-
-  // function mergeTelus() { //create a condition checking if companySalesData[i].name matches another object
-  //     companySalesData[i].totalSales += companySalesData[2].totalSales;     //add up totalSales and salesTax
-  //     companySalesData[i].salesTax += companySalesData[2].salesTax;
-  //     delete companySalesData[i];     //delete one telus object in the array
-  // }
-
-// mergeTelus();
-
-//   function salesTaxReport(name, totalSales, totalTax) {
-//     this.name = name;
-//     this.totalSales = totalSales;
-//     this.totalTax = totalTax;
-//   }
-
-//   for (var i = 0; i < companySalesData.length - 1; i++) {
-//     var company = new salesTaxReport(companySalesData[i].name, companySalesData[i].totalSales, companySalesData[i].salesTax);
-//     console.log(company);
-//   }
-// console.log(companySalesData);
-// console.log(companySalesData);
-
